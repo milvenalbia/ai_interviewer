@@ -38,14 +38,14 @@ const Agent = ({ userName }: AgentProps) => {
               alt="user avatar"
               width={540}
               height={540}
-              className="object-cover"
+              className="rounded-full object-cover size-[120px]"
             />
             <h3>{userName}</h3>
           </div>
         </div>
       </div>
       {messages.length > 0 && (
-        <div className="transcript-boder">
+        <div className="transcript-border">
           <div className="transcript">
             <p
               key={lastMessage}
