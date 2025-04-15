@@ -117,3 +117,14 @@ export async function isAuthenticated() {
 
   return !!user;
 }
+
+export async function logout() {
+  const cookieStore = await cookies();
+  cookieStore.set("session", "", {
+    maxAge: -1,
+    path: "/",
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+  });
+}
