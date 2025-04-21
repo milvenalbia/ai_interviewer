@@ -6,6 +6,8 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
+![AI-Powered Interviewer](https://i.imgur.com/6qxAlt2.jpeg)
+
 ## 📋 Overview
 
 AI Mockup Interviewer is a cutting-edge application that simulates job interviews using AI technology. Powered by Vapi and Gemini, it provides realistic interview experiences to help users prepare for real job interviews. The application features dynamic conversations, real-time feedback, and personalized interview scenarios.
